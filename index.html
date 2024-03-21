@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barbearia Joba</title>
+    <title>Barbearia Joba - Serviços</title>
 
     <link rel="stylesheet" href="./assets/scss/style.css">
 
@@ -20,7 +20,34 @@
 <body>
     <nav>
         <img src="./assets/img/Ellipse 1.png" alt="">
-        <img src="./assets/img/menu-hamburguer.png" alt="">
+
+        <!-- <img id="menu-btn" src="./assets/img/menu-hamburguer.png" alt="">
+
+        <ul id="menu">
+            <li><a href="./index.html">Serviços</a></li>
+            <li><a href="./portfolio.html">Portfólio</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+        </ul> -->
+
+        <div id="menu">
+            <div id="menu-bar" onclick="menuOnClick()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <nav class="nav" id="nav">
+                <ul>
+                    <li><a href="./index.html">Serviços</a></li>
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./portfolio.html">Portfólio</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="menu-bg" id="menu-bg"></div>
+
     </nav>
     <header>
         <h1>Bem-vindo à Barbearia</h1>
@@ -50,6 +77,7 @@
     </main>
 
     <footer>
+        <div class="linha"></div>
         <h2>Contato</h2>
         <div class="contatos">
             <a href="#">
@@ -67,7 +95,11 @@
                 <span>@instagram</span>
             </a>
         </div>
+
+        <p class="copy">&copy; All Reserved Copyright</p>
     </footer>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

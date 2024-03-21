@@ -1,8 +1,13 @@
 footer {
+
     padding: 40px 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    
+    .linha {
+        border-top: 2px solid #FFFFFF;
+    }
 
     h2 {
         font-size: 1.5rem;
@@ -26,5 +31,11 @@ footer {
                 width: 48px;
             }
         }
+    }
+
+    .copy {
+        padding: 40px 0;
+        text-align: center;
+        font-size: 0.75rem;
     }
 }
